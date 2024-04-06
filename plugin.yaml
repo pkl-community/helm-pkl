@@ -1,0 +1,8 @@
+name: "pkl"
+version: "0.0.1"
+description: "evaluate pkl files to produce helm values files"
+
+downloaders:
+  - command: "./pkl-eval.sh"
+    protocols:
+      - "pkl"
